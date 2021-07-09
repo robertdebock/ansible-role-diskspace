@@ -44,8 +44,6 @@ jobs:
           - image: "debian"
             tag: "bullseye"
           - image: "rockylinux"
-            tag: "7"
-          - image: "rockylinux"
             tag: "latest"
           - image: "fedora"
             tag: "33"
