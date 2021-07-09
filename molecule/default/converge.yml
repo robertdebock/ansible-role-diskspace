@@ -1,0 +1,17 @@
+---
+- name: converge
+  hosts: all
+  become: yes
+  gather_facts: yes
+
+  roles:
+    - role: ansible-role-diskspace
+      # In a container these mounts should be available.
+      diskspace_mounts:
+        - name: /etc/resolv.conf
+          megabytes_available: 64
+        - name: /etc/hostname
+          gigabytes_available: 4
+        - name: /etc/hosts
+          inodes_available: 65536
+          gigabytes_available: 1
