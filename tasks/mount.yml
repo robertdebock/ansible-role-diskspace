@@ -1,6 +1,7 @@
 ---
 
 - name: Convert to kilobytes
+  delegate_to: localhost
   block:
     - name: Convert megabytes to kilobytes
       ansible.builtin.set_fact:
@@ -13,7 +14,6 @@
         kilobytes_available: "{{ mount.gigabytes_available * 1024 * 1024 }}"
       when:
         - mount.gigabytes_available is defined
-  delegate_to: localhost
 
 - name: Check space available
   ansible.builtin.assert:
