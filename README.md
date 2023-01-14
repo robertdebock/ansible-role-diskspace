@@ -107,7 +107,7 @@ If you find issues, please register them in [GitHub](https://github.com/robertde
 
 ## [License](#license)
 
-[Apache-2.0](https://github.com/robertdebock/ansible-role-diskspace/blob/master/LICENSE.MD).
+[Apache-2.0](https://github.com/robertdebock/ansible-role-diskspace/blob/master/LICENSE).
 
 ## [Author Information](#author-information)
 
