@@ -12,6 +12,6 @@
           megabytes_available: 64
         - name: /etc/hostname
           gigabytes_available: 4
-        - name: /etc/hosts
-          inodes_available: 65536
-          gigabytes_available: 1
+        # - name: /etc/hosts
+        #   inodes_available: 65536
+        #   gigabytes_available: 1
