@@ -5,4 +5,4 @@
 repository:
   description: Check diskspace (or inodes) available, fail if too low.
   homepage: https://robertdebock.nl/
-  topics: diskspace, inodes, assert, check, ansible, molecule, tox, playbook, hacktoberfest
+  topics: diskspace, inodes, assert, check, ansible, molecule, tox, playbook
