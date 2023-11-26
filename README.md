@@ -1,4 +1,4 @@
-# Ansible role [diskspace](#diskspace)
+# [Ansible role diskspace](#diskspace)
 
 Check diskspace (or inodes) available, fail if too low.
 
