@@ -5,5 +5,5 @@ argument_specs:
     options:
       diskspace_mounts:
         type: "list"
-        required: true
+        required: yes
         description: "A list of `name`s and one or more `megabytes_available`, `gigabytes_available` and/or `inodes_available`."
