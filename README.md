@@ -18,7 +18,7 @@ This example is taken from [`molecule/default/converge.yml`](https://github.com/
   gather_facts: true
 
   roles:
-    - role: ansible-role-diskspace
+    - role: robertdebock.diskspace
       # In a container these mounts should be available.
       diskspace_mounts:
         - name: /etc/resolv.conf
